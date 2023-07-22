@@ -6,3 +6,5 @@ on a1.process_id=a2.process_id
 and a1.machine_id=a2.machine_id
 and a1.timestamp<a2.timestamp
 group by a1.machine_id
+
+# see the extended comment
