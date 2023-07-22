@@ -7,3 +7,5 @@ ON student.student_id=exam.student_id AND subject.subject_name=exam.subject_name
 GROUP BY student.student_id,subject.subject_name
 ORDER BY student_id,subject_name;
 
+# see the extended comment
+
