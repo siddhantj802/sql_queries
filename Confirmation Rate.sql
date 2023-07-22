@@ -11,4 +11,4 @@ left join confirmations c
 on s.user_id = c.user_id) x
 group by x.user_id 
 
-# see the extended comment
+    # see the extended comment
