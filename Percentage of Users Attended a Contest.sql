@@ -9,3 +9,5 @@ join cte
 group by contest_id
 ) x 
 order by x.percentage desc, contest_id asc 
+
+# see the extended comment
