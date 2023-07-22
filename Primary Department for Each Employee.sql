@@ -17,3 +17,5 @@ on e.employee_id = cte.employee_id
 ) x
 
 where x.department_id is not null
+
+#see the extended comment
