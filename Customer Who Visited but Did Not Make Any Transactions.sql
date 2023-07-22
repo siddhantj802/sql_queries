@@ -6,4 +6,4 @@ select v.customer_id , count(customer_id) as count_no_trans
   where t.transaction_id is Null
   group by customer_id
 
-#Leetcode question
+# see the extended comment
