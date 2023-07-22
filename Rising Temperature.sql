@@ -8,4 +8,5 @@
 select id 
 from cte
 where temperature > prev_day_temp and datediff(recordDate,prev_day ) = 1;
- 
+
+# see the extended comment
