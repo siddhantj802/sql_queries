@@ -9,3 +9,5 @@ where description <> 'boring'
 )x
 where x.odd_ids is not null
 order by x.rating desc
+
+#see the extended comment
