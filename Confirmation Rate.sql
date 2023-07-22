@@ -1,5 +1,6 @@
 select x.user_id, round(avg(x.value) , 2) as confirmation_rate
 from
+
 (select s.user_id , c.action,
 case 
     when c.action = 'confirmed' then 1
