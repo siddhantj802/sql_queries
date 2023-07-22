@@ -12,4 +12,6 @@ from (
 where 
  login_table.login_rank = 1 and
  login_table.next_login is not null and
- datediff(login_table.next_login, login_table.event_date) = 1
+ datediff(login_table.next_login, login_table.event_date) =1
+
+# see the extended comment
