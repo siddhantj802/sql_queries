@@ -9,3 +9,5 @@ SUM(CASE
     END) AS approved_total_amount
 FROM Transactions
 GROUP BY month, country
+
+# see the extended comment
